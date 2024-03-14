@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ubert\\Desktop\\prog\\C# DotNet\\VeicoliManager\\VeicoliManager\\VeicoliManager.csproj",
+      "projectUniqueName": "C:\\Users\\ubert\\Source\\Repos\\IeM_Albergo_Veicoli\\VeicoliManager\\VeicoliManager\\VeicoliManager.csproj",
       "projectName": "VeicoliManager",
-      "projectPath": "C:\\Users\\ubert\\Desktop\\prog\\C# DotNet\\VeicoliManager\\VeicoliManager\\VeicoliManager.csproj",
+      "projectPath": "C:\\Users\\ubert\\Source\\Repos\\IeM_Albergo_Veicoli\\VeicoliManager\\VeicoliManager\\VeicoliManager.csproj",
       "packagesPath": "C:\\Users\\ubert\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ubert\\Desktop\\prog\\C# DotNet\\VeicoliManager\\VeicoliManager\\obj\\",
+      "outputPath": "C:\\Users\\ubert\\Source\\Repos\\IeM_Albergo_Veicoli\\VeicoliManager\\VeicoliManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ubert\\AppData\\Roaming\\NuGet\\NuGet.Config",
