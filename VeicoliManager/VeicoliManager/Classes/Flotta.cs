@@ -103,7 +103,7 @@ namespace VeicoliManager.Classes
                 Console.WriteLine("=========================================");
                 Console.WriteLine("-Premi 1 per vedere la flotta \n" +
                                   "-Premi 2 aggiungere un veicolo \n" +
-                                  "-Premi 2 rimuovere un veicolo");
+                                  "-Premi 3 rimuovere un veicolo");
                 string? inputChoice = Console.ReadLine();
                 switch (inputChoice)
                 {
