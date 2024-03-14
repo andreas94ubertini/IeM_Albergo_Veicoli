@@ -36,6 +36,7 @@ namespace VeicoliManager.Classes
                 if (toFind != null)
                 {
                     flottaList.Remove(toFind);
+                    ExportCsv();
                     int n = flottaList.Count;
                     Console.WriteLine("Veicolo rimosso con successo");
                     if(n == 0)
