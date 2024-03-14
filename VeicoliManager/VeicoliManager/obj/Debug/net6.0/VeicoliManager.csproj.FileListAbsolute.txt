@@ -1,0 +1,14 @@
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\bin\Debug\net6.0\VeicoliManager.exe
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\bin\Debug\net6.0\VeicoliManager.deps.json
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\bin\Debug\net6.0\VeicoliManager.runtimeconfig.json
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\bin\Debug\net6.0\VeicoliManager.dll
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\bin\Debug\net6.0\VeicoliManager.pdb
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\obj\Debug\net6.0\VeicoliManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\obj\Debug\net6.0\VeicoliManager.AssemblyInfoInputs.cache
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\obj\Debug\net6.0\VeicoliManager.AssemblyInfo.cs
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\obj\Debug\net6.0\VeicoliManager.csproj.CoreCompileInputs.cache
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\obj\Debug\net6.0\VeicoliManager.dll
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\obj\Debug\net6.0\refint\VeicoliManager.dll
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\obj\Debug\net6.0\VeicoliManager.pdb
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\obj\Debug\net6.0\VeicoliManager.genruntimeconfig.cache
+C:\Users\ubert\Source\Repos\IeM_Albergo_Veicoli\VeicoliManager\VeicoliManager\obj\Debug\net6.0\ref\VeicoliManager.dll

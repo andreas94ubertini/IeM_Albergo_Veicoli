@@ -9,8 +9,9 @@ namespace VeicoliManager.Classes
     internal class Flotta
     {
         private List<Veicolo>? flottaList;
+        
 
-        public void AddVeicolo(Veicolo v)
+        private void AddVeicolo(Veicolo v)
         {
             if (flottaList == null)
             {
@@ -28,7 +29,32 @@ namespace VeicoliManager.Classes
 
 
         }
-        public void ShowVeicoloList()
+        private void DeleteVeicolo(string? marca, string? modello, DateTime annoImmatricolazione) {
+            if (flottaList != null)
+            {
+                Veicolo toFind = flottaList.Find(ve => ve.Marca == marca && ve.Modello == modello && ve.AnnoImmatricolazione == annoImmatricolazione);
+                if (toFind != null)
+                {
+                    flottaList.Remove(toFind);
+                    int n = flottaList.Count;
+                    Console.WriteLine("Veicolo rimosso con successo");
+                    if(n == 0)
+                    {
+                        flottaList = null;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Nessun veicolo corrispondente");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Nessun Veicolo presente");
+            }
+        }
+
+        private void ShowVeicoloList()
         {
             if (flottaList != null)
             {
@@ -56,7 +82,7 @@ namespace VeicoliManager.Classes
                 Console.WriteLine("Nessun veicolo presente attualmente");
             }
         }
-        public void ExportCsv()
+        private void ExportCsv()
         {
             string? path = Path.GetDirectoryName(typeof(Program).Assembly.Location);
             string fileName = "\\SavedData\\flotta.txt";
@@ -195,6 +221,28 @@ namespace VeicoliManager.Classes
                                 }
                             }
 
+                            break;
+                        }
+                    case "3":
+                        {
+                            Console.WriteLine("Eliminazione Veicolo");
+                            Console.WriteLine("Inserisci Marca");
+                            string? marca = Console.ReadLine();
+                            Console.WriteLine("Inserisci Modello");
+                            string? modello = Console.ReadLine();
+                            Console.WriteLine("Inserisci anno Immatricolazione");
+                            string? annoImm = Console.ReadLine();
+                            try
+                            {
+                                DateTime convertedAnnoImm = Convert.ToDateTime(annoImm);
+                                
+                                this.DeleteVeicolo(marca, modello, convertedAnnoImm);
+
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine(ex.Message);
+                            }
                             break;
                         }
                 }
